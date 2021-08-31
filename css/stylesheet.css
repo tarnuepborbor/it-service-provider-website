@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Junitta-BW55G.otf);
+}
+
+header{
+	background-image: url(../assets/2yuoJF.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.card{
+	border: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 0px;
+	transition: 0.5s all;
+}
+td{
+	text-align: left;
+}
+
+
+.card:hover{
+	box-shadow: 0 8px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.site-name{
+	font-family: 'Times New Roman';
+	font-weight:;
+}
+
+h2{
+	color: #0099ff;
+}
+
+.big-btn{
+	background: background:linear-gradient(135deg, #C56CD6 0%,#3425AF 100%);
+	padding: 5px;
+	border-radius: 20px;
+}
+.nav-item, .dropdown-item{
+	font-size: 20px;
+	transition: 0.5s all;
+	margin-left: 3px;
+	color: white !important;
+}
+.nav-item:hover{
+	border-bottom: 1px dotted white;
+	color: white;
+}
+
+.dropdown-menu a{
+	color: blue !important;
+	font-size: 20px;
+}
+
+.dropdown-menu{
+	border: 1px dotted white;
+}
+
+.dropdown-menu a:hover{
+	background: black !important;
+	border-bottom:  1px dotted white;
+	color: white;
+}
+
+ .active{
+	border-bottom:  1px solid white;
+	color: white;
+}
+
+#thumbNail{
+	background-position: center;
+	background-size: contain;
+}
+
+.zoom{
+	transition: 0.5s all;
+}
+
+.zoom:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.card{
+	overflow: hidden;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  #logo{
+  	font-size: 20px;
+  }
+}
+
+td a{
+	color: white !important;
+}
